@@ -60,5 +60,10 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="Products.sql" />
+    <Build Include="Operations.sql" />
+    <Build Include="Inventory.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <RefactorLog Include="Kiyanka.refactorlog" />
   </ItemGroup>
 </Project>
