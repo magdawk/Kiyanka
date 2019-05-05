@@ -57,12 +57,13 @@
   <Import Condition="'$(SQLDBExtensionsRefPath)' == ''" Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v$(VisualStudioVersion)\SSDT\Microsoft.Data.Tools.Schema.SqlTasks.targets" />
   <ItemGroup>
     <Folder Include="Properties" />
+    <Folder Include="Functions" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Products.sql" />
     <Build Include="Operations.sql" />
     <Build Include="Inventory.sql" />
-    <Build Include="AmountProduct.sql" />
+    <Build Include="Functions\AmountProduct.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Kiyanka.refactorlog" />
