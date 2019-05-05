@@ -58,12 +58,14 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Functions" />
+    <Folder Include="Triggers" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="Products.sql" />
     <Build Include="Operations.sql" />
     <Build Include="Inventory.sql" />
     <Build Include="Functions\AmountProduct.sql" />
+    <Build Include="Triggers\InsertToInventory.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Kiyanka.refactorlog" />
