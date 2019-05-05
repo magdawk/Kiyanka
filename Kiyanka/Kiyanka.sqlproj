@@ -62,6 +62,7 @@
     <Build Include="Products.sql" />
     <Build Include="Operations.sql" />
     <Build Include="Inventory.sql" />
+    <Build Include="AmountProduct.sql" />
   </ItemGroup>
   <ItemGroup>
     <RefactorLog Include="Kiyanka.refactorlog" />
