@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2046
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Kiyanka", "Kiyanka\Kiyanka.sqlproj", "{B31B4E71-80A1-4A45-B824-D54E7A743373}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{FC6C08A4-DA43-40D4-AB6A-0B999CEF77A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{B31B4E71-80A1-4A45-B824-D54E7A743373}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B31B4E71-80A1-4A45-B824-D54E7A743373}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B31B4E71-80A1-4A45-B824-D54E7A743373}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FC6C08A4-DA43-40D4-AB6A-0B999CEF77A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC6C08A4-DA43-40D4-AB6A-0B999CEF77A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC6C08A4-DA43-40D4-AB6A-0B999CEF77A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC6C08A4-DA43-40D4-AB6A-0B999CEF77A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
